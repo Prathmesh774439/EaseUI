@@ -1,8 +1,8 @@
 import { Smartphone, CreditCard, Building2 } from "lucide-react";
 
-type Props = {};
 
-const PaymentBillingForm = (props: Props) => {
+
+const PaymentBillingForm = ()=> {
   return (
     <div className="w-full max-w-md rounded-xl border border-zinc-200 bg-white p-6 shadow-sm">
       <div className="mb-6">
@@ -13,7 +13,7 @@ const PaymentBillingForm = (props: Props) => {
         <p className="mt-1 text-sm text-zinc-500">
           Choose a payment method and complete your payment.
         </p>
-      </div>
+      </div>  
 
       <form className="space-y-5">
         {/* Payment Methods */}
