@@ -105,14 +105,24 @@ import Tooltip from "@/components/Tooltip/Tooltip";
         </header>
 
         <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">Usage</h2>
+          <h2
+            className="text-2xl font-semibold text-gray-600"
+            style={{ color: "var(--text-color)" }}
+          >
+            Usage
+          </h2>
           <ComponentDemo code={toolTipcode}>
             <Tooltip />
           </ComponentDemo>
         </section>
 
         <section className="space-y-4">
-          <h2 className="text-2xl font-semibold">API Reference</h2>
+          <h2
+            className="text-2xl font-semibold text-gray-600"
+            style={{ color: "var(--text-color)" }}
+          >
+            API Reference
+          </h2>
           <PropsTable data={propsData} />
         </section>
       </div>
