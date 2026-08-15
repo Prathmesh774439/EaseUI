@@ -235,7 +235,7 @@ const [currentSlide, setCurrentSlide] = useState(0);
       </header>
 
       <section className="space-y-4">
-        <h2 className="text-2xl font-semibold">Usage</h2>
+        <h2 className="text-2xl font-semibold text-gray-600">Usage</h2>
         <h1
           className="text-4xl font-bold tracking-tight"
           style={{ color: "var(--text-color)" }}
