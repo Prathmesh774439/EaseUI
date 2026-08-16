@@ -39,9 +39,9 @@ const ComponentLayout = ({}: Props) => {
             <li
               onClick={() => navigate(item.toLowerCase())}
               key={item}
-              className={`cursor-pointer hover:text-blue-700 font-[Poppins] text-md font-bold text-md hover:translate-x-1 transition-all duration-200 ease-in-out ${
+              className={`cursor-pointer hover:text-[#7F22FE] font-[Poppins] text-md font-bold text-md hover:translate-x-1 transition-all duration-200 ease-in-out ${
                 location.pathname === `/components/${item.toLowerCase()}`
-                  ? "text-blue-700"
+                  ? "text-[#7F22FE]"
                   : "text-gray-600"
               }`}
             >
