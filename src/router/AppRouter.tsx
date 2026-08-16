@@ -10,6 +10,8 @@ import NavbarPage from "@/pages/components/NavbarPage";
 import TooltipPage from "@/pages/components/TooltipPage";
 import Carouselpage from "@/pages/components/Carouselpage";
 import FormPage from "@/pages/components/FormPage";
+import AboutPage from "@/pages/AboutPage";
+import PricingSection from "@/pages/templates/PricingTemplate";
 
 
 type Props = {};
@@ -23,6 +25,14 @@ const AppRouter = ({}: Props) => {
         {
           index: true,
           element: <HomePage />,
+        },
+        {
+          path: "about",
+          element: <AboutPage/>  ,
+        },
+        {
+          path: "templates",
+          element: <PricingSection/>,
         },
         {
           path: "components",

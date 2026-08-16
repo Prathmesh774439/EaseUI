@@ -4,9 +4,9 @@ type Props = {};
 
 function App({}: Props) {
   return (
-    <div className="min-h-screen w-full">
-      <AppRouter />
-    </div>
+   <div className="min-h-screen w-full  ">
+  <AppRouter />
+</div>
   );
 }
 
