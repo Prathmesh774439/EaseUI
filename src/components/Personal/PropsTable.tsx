@@ -10,7 +10,7 @@ interface PropsTableProps {
 const PropsTable = ({ data }: PropsTableProps) => {
   return (
     <div className="overflow-hidden rounded-lg border border-gray-200 shadow-sm">
-      <table className="w-full">
+      <table className="w-full" style={{ color: "var(--text-color)" }}>
         <thead className="">
           <tr>
             <th className="px-4 py-3 text-left text-sm font-semibold ">Prop</th>
