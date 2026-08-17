@@ -1,11 +1,9 @@
 import { useRef } from "react";
-import { useNavigate } from "react-router";
 import { Github, Sparkles, Code2, Palette } from "lucide-react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const AboutPage = () => {
-  const navigate = useNavigate();
   const pageRef = useRef<HTMLDivElement>(null);
 
   useGSAP(() => {
